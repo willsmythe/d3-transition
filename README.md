@@ -1,5 +1,7 @@
 # d3-transition
 
+[![Build Status](https://dev.azure.com/d3/d3/_apis/build/status/d3.d3-transition)](https://dev.azure.com/d3/d3/_build/definition?definitionId=29)
+
 A transition is a [selection](https://github.com/d3/d3-selection)-like interface for animating changes to the DOM. Instead of applying changes instantaneously, transitions smoothly interpolate the DOM from its current state to the desired target state over a given duration.
 
 To apply a transition, select elements, call [*selection*.transition](#selection_transition), and then make the desired changes. For example:
